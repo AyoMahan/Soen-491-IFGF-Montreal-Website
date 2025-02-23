@@ -1,11 +1,13 @@
 <script>
 import Navbar from './components/Navbar.vue';
 import Cover from './components/Cover.vue';
+import Footer from './components/Footer.vue';
 
 export default {
   components: {
     Navbar,
-    Cover
+    Cover,
+    Footer
   }
 };
 </script>
@@ -13,6 +15,7 @@ export default {
 <template>
   <RouterView />
   <Cover />
+  <Footer />
 </template>
 
 <style scoped>
