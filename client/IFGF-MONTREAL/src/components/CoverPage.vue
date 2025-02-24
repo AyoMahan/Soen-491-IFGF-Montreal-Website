@@ -10,6 +10,8 @@
           </nav>
         </div>
       </header>
+
+      <img src="@/assets/cross.jpg" class="img-fluid" alt="...">
   
       <main class="px-3">
         <h1>Cover your page.</h1>

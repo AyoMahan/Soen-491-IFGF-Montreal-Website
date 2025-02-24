@@ -1,73 +1,41 @@
 <template>
-    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-      <header class="mb-auto">
-        <div>
-          <h3 class="float-md-start mb-0">Cover</h3>
-          <nav class="nav nav-masthead justify-content-center float-md-end">
-            <a class="nav-link fw-bold py-1 px-0 active" aria-current="page" href="#">Home</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Features</a>
-            <a class="nav-link fw-bold py-1 px-0" href="#">Contact</a>
-          </nav>
-        </div>
-      </header>
+ 
+  <h1 class="display-4">IFGF Montreal Vision and Mission</h1>
   
-      <main class="px-3">
-        <h1>Cover your page.</h1>
-        <p class="lead">Come Worship with Us!</p>
-        <p class="lead">
-          <a href="#" class="btn btn-lg btn-light fw-bold border-white bg-white">Learn more</a>
-        </p>
-      </main>
-  
-      <footer class="mt-auto text-white-50">
-        <p>Cover template for <a href="https://getbootstrap.com/" class="text-white">Bootstrap</a>, by <a href="https://twitter.com/mdo" class="text-white">@mdo</a>.</p>
-      </footer>
-    </div>
-  </template>
+  <h1 class="display-6">Our Vision</h1>
+  <p>To Perform His will and to finish his works <br>
+    to observe, to practice his teachings And examples. <br>
+     To reach out to unbelievers with the Gospel. <br>
+    To love one another with Godly Love.
+  </p>
+  <img src="@/assets/cross.jpg" class="rounded mx-auto d-block" alt="...">
+
+  <h1 class="display-6">Our Belief</h1>
+  <p>We believe that there is ONLY one God, eternally existent in three persons:
+Father, Son, and the Holy Spirit.We believe in the deity of our Lord Jesus Christ .
+We believe that for the salvation of lost and sinful man,
+regeneration of the Holy Spirit is absolutely essential.</p>
+
+
+  <h1 class="display-6">Mesage from our Pastor</h1>
+  <p>We believe in the following The Bible to be the inspired, the only infallible, authoritative Word of God. And there is ONLY one God, eternally existent in three persons: Father, Son, and the Holy Spirit. We believe in the deity of our Lord Jesus Christ, in His virgin birth, in His sinless life, in His miracles, in His vicarious and atoning death through His shed blood, in His bodily resurrection, in His ascension to the right hand of the Father, and in His personal return in power and glory. We believe that for the salvation of lost and sinful man, regeneration of the Holy Spirit is absolutely essential in the present ministry of the Holy Spirit by whose indwelting the Christian is enabled to live a godly life. We believe in the resurrection of both the saved and the lost; they that are saved unto the resurrection of life and they that are lost unto the resurrection of damnation. And we also believe in the spiritual unity of believers in our Lord Jesus Christ.</p>
+
+  <figure class="text-center">
+  <blockquote class="blockquote">
+    <p>For where two or three are gathered together in my name, there am I in the midst of them.</p>
+  </blockquote>
+  <figcaption class="blockquote-footer">
+    Matthew 18:20 King James Version (KJV)
+  </figcaption>
+</figure>
+
+</template>
   
   <script>
-  export default {
-    name: 'CoverPage',
-  };
+
   </script>
   
   <style scoped>
-  /* Custom default button */
-  .btn-light,
-  .btn-light:hover,
-  .btn-light:focus {
-    color: #333;
-    text-shadow: none;
-  }
   
-  /* Base structure */
-  body {
-    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
-    box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
-  }
-  
-  .cover-container {
-    max-width: 42em;
-  }
-  
-  /* Header */
-  .nav-masthead .nav-link {
-    color: rgba(255, 255, 255, .5);
-    border-bottom: .25rem solid transparent;
-  }
-  
-  .nav-masthead .nav-link:hover,
-  .nav-masthead .nav-link:focus {
-    border-bottom-color: rgba(255, 255, 255, .25);
-  }
-  
-  .nav-masthead .nav-link + .nav-link {
-    margin-left: 1rem;
-  }
-  
-  .nav-masthead .active {
-    color: #fff;
-    border-bottom-color: #fff;
-  }
   </style>
   
