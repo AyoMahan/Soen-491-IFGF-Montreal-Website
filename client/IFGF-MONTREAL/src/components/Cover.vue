@@ -1,18 +1,57 @@
 <template>
-    <div class="container my-5">
-        <div class="row">
-            <div class="col-md-7"><img src="@/assets/outdoor.jpg" alt="outdoor" class="img-fluid">></div>
-            <div class="col-md-5">Come Worship with us</div>
-                <h1 class="font-weight-light">Saturdays at 11 am</h1>
-                <p class="mt-4">
-                    Come!!
-                </p>
-        </div>
-    </div>
-</template>
-
-<script>
-export default{
-    name:"Cover"
-};
-</script>
+    <section class="cover-container" :style="{ backgroundImage: `url(${bgImage})` }">
+      <div class="overlay"></div>
+      <div class="cover-content">
+        <h1 class="display-3 fw-bold">IFGF MONTREAL</h1>
+        <p class="lead">In Christ Alone</p>
+      </div>
+    </section>
+  </template>
+  
+  <script>
+  import { RouterLink } from "vue-router";
+  import bgImage from "@/assets/christmas.jpg"; // Ensure the image exists in the assets folder
+  
+  export default {
+    components: {
+      RouterLink,
+    },
+    data() {
+      return {
+        bgImage, // Store the imported image
+      };
+    },
+  };
+  </script>
+  
+  <style scoped>
+  .cover-container {
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .cover-content {
+    position: relative;
+    z-index: 1;
+    max-width: 800px;
+    padding: 20px;
+  }
+  </style>
+  

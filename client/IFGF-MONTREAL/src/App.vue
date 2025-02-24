@@ -13,8 +13,8 @@ export default {
 </script>
 
 <template>
+  <Navbar />
   <RouterView />
-  <Cover />
   <Footer />
 </template>
 

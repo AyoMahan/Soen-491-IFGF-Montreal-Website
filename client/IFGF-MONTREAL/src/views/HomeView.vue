@@ -1,10 +1,11 @@
 <script setup>
-import TheWelcome from '../components/Navbar.vue'
+import Navbar from '../components/Navbar.vue';
+import Cover from '../components/Cover.vue';
+import Footer from '../components/Footer.vue';
 </script>
 
 <template>
   <main>
-    <TheWelcome />
-    <h1>Come to 3482 Decarie Blvd, Montreal, Quebec H4A 3J5 </h1>
+    <Cover />
   </main>
 </template>
