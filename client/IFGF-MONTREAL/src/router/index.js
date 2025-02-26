@@ -23,6 +23,11 @@ const router = createRouter({
       component: () => import('../views/EventsView.vue'),
     },
     {
+      path: '/outreach',
+      name: 'outreach',
+      component: () => import('../views/OutreachView.vue'),
+    },
+    {
       path: '/connect',
       name: 'connect',
       component: () => import('../views/ConnectView.vue'),
