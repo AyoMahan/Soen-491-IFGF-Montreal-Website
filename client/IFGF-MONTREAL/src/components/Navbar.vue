@@ -10,7 +10,10 @@
               <RouterLink class="nav-link" to="/about">About</RouterLink>
             </li>
             <li class="nav-item">
-              <RouterLink class="nav-link" to="/about">Reach Out</RouterLink>
+              <RouterLink class="nav-link" to="/events">Reach Out</RouterLink>
+            </li>
+            <li class="nav-item">
+              <RouterLink class="nav-link" to="/events">Connect</RouterLink>
             </li>
             <li class="nav-item">
               <RouterLink class="nav-link" to="/about">Login</RouterLink>
