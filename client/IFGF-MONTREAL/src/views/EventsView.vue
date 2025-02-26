@@ -1,11 +1,10 @@
 <template>
     
-  </template>
+</template>
   
   <script>
   export default {
     name: 'MainPage',
-    // You can add methods, data, or lifecycle hooks if necessary
   }
   </script>
   
