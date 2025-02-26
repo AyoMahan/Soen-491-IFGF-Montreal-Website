@@ -18,7 +18,7 @@
     },
     data() {
       return {
-        bgImage, // Store the imported image
+        bgImage, 
       };
     },
   };

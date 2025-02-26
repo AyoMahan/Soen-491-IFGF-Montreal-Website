@@ -4,7 +4,9 @@
         <div class="row">
           <!-- Footer Navigation -->
           <div class="col-md-4 mb-3">
-            
+            <h5>Find us</h5>
+            <p>Saturdays: 11am - 1:30 pm</p>
+            <p>3482 Decarie Blvd, Montreal, Quebec H4A 3J5</p>
           </div>
   
           <!-- Social Media Links -->
