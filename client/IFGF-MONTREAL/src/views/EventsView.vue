@@ -1,23 +1,19 @@
+<script>
+import Carousel from '@/components/Carousel.vue';
+
+export default {
+  components: {
+    Carousel
+  }
+};
+
+</script>
+
 <template>
-    
+<h1 class="display-4">Coming Soon</h1>
+<h1 class="display-4">Past Events</h1>
+
+<Carousel />
+
 </template>
-  
-  <script>
-  export default {
-    name: 'MainPage',
-  }
-  </script>
-  
-  <style scoped>
-  body {
-    font-family: "Times New Roman", Georgia, Serif;
-  }
-  
-  h1, h2, h3, h4, h5, h6 {
-    font-family: "Playfair Display";
-    letter-spacing: 5px;
-  }
-  
-  /* Add any additional styling here */
-  </style>
   
