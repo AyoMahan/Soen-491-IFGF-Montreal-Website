@@ -10,7 +10,7 @@
   
   <script>
   import { RouterLink } from "vue-router";
-  import bgImage from "@/assets/christmas.jpg"; // Ensure the image exists in the assets folder
+  import bgImage from "@/assets/christmas.jpg"; 
   
   export default {
     components: {
