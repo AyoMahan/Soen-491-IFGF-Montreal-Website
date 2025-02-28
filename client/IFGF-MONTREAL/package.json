@@ -13,8 +13,13 @@
   },
   "dependencies": {
     "@floating-ui/vue": "^1.1.6",
+    "body-parser": "^1.20.3",
     "bootstrap": "^5.3.3",
     "bootstrap-icons": "^1.11.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0",
     "pinia": "^3.0.1",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
@@ -33,5 +38,10 @@
     "vite": "^6.1.0",
     "vite-plugin-vue-devtools": "^7.7.2",
     "vitest": "^3.0.5"
-  }
+  },
+  "description": "This template should help get you started developing with Vue 3 in Vite.",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
