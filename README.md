@@ -22,4 +22,11 @@ Developer Getting Started Guide
 ## CI/CD Information
 
 ## Wiki Table of Contents
+- [Home](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki)
+- [Architecture](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Architecture-Diagram)
+- [Api documentation](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/EMAIL-API)
+- [Infrastructure and Tools](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Infrastructure-and-Tools)
+- [User Story Guide](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/User-Story-Guide)
+- [Risks](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Risk-Management)
+
 
