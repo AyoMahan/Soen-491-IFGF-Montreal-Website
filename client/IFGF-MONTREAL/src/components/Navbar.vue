@@ -20,14 +20,17 @@
             </li>
           </ul>
 
-          <!-- Login Button -->
+          <!-- Authentication buttons -->
         <div class="ms-auto">
-          <SignInButton v-if="!isSignedIn" mode="modal">
-            <button class="btn btn-primary">Login</button>
-          </SignInButton>
+          <SignedOut>
+            <SignInButton>
+              <button class="btn btn-primary">Login</button>
+            </SignInButton>
+          </SignedOut>
 
-        <!-- Show User Avatar & Sign Out when logged in -->
-        <UserButton v-else />
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
         </div>  
 
         </div>
@@ -37,11 +40,23 @@
   
   <script>
   import { RouterLink } from 'vue-router';
-  import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/vue'
+  import { SignInButton, UserButton, SignedIn, SignedOut } from '@clerk/vue';
+  import { useAuth } from '@clerk/vue';
   export default {
     components: {
-      RouterLink
-    }
-  };
+      RouterLink,
+      SignInButton,
+      UserButton,
+      SignedIn,
+      SignedOut
+    },
+  setup() {
+    const { isSignedIn } = useAuth();
+
+    return {
+      isSignedIn
+    };
+  }
+};
   </script>
   
