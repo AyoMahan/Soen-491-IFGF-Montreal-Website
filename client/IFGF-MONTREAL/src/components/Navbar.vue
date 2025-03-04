@@ -18,8 +18,21 @@
             <li class="nav-item">
               <RouterLink class="nav-link" to="/events">Events</RouterLink>
             </li>
-            
           </ul>
+
+          <!-- Authentication buttons -->
+        <div class="ms-auto">
+          <SignedOut>
+            <SignInButton>
+              <button class="btn btn-primary">Login</button>
+            </SignInButton>
+          </SignedOut>
+
+          <SignedIn>
+            <UserButton />
+          </SignedIn>
+        </div>  
+
         </div>
       </div>
     </nav>
@@ -27,11 +40,23 @@
   
   <script>
   import { RouterLink } from 'vue-router';
-  
+  import { SignInButton, UserButton, SignedIn, SignedOut } from '@clerk/vue';
+  import { useAuth } from '@clerk/vue';
   export default {
     components: {
-      RouterLink
-    }
-  };
+      RouterLink,
+      SignInButton,
+      UserButton,
+      SignedIn,
+      SignedOut
+    },
+  setup() {
+    const { isSignedIn } = useAuth();
+
+    return {
+      isSignedIn
+    };
+  }
+};
   </script>
   
