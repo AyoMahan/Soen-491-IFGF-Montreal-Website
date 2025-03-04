@@ -113,4 +113,73 @@ export default {
 };
 </script>
 
+<style scoped>
+/* Form Container */
+.form-container {
+  background: #f5efe6; 
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 600px;
+  margin: auto;
+  margin-top: 30px;
+}
 
+/* Form Title */
+.form-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #5a4a42; 
+  margin-bottom: 20px;
+}
+
+/* Labels */
+.form-label {
+  font-weight: 600;
+  color: #5a4a42;
+}
+
+/* Form Inputs */
+.form-control, .form-select {
+  border-radius: 10px;
+  border: 1px solid #c2b8a3; 
+  padding: 10px;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #8b7765; 
+  box-shadow: 0 0 5px rgba(139, 119, 101, 0.5);
+}
+
+/* Textarea */
+textarea {
+  resize: none;
+}
+
+/* Checkbox */
+.form-check-input {
+  border-color: #5a4a42;
+}
+
+.form-check-input:checked {
+  background-color: #8b7765;
+  border-color: #8b7765;
+}
+
+/* Submit Button */
+.btn-custom {
+  background: #5a4a42;
+  color: white;
+  font-weight: bold;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-custom:hover {
+  background: #8b7765;
+}
+</style>
