@@ -35,4 +35,50 @@ import Cards from '@/components/Cards.vue';
   </main>
 </template>
 
+<style scoped>
+.connect-page {
+  background: linear-gradient(to bottom, #fefaf5, #f5eee5);
+  min-height: 100vh;
+  padding: 40px 0;
+}
 
+.title {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #4a3f35;
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 4px;
+  background: #b89b7d;
+  margin: 8px auto;
+  border-radius: 2px;
+}
+
+.subtitle {
+  text-align: center;
+  font-size: 2rem;
+  color: #6c584c;
+  margin-bottom: 20px;
+}
+
+.description {
+  text-align: justify;
+  font-size: 1.1rem;
+  color: #5a4d3f;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+</style>
