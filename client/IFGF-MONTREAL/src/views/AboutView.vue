@@ -4,7 +4,7 @@
       <h1 class="display-4 text-white mt-4">IFGF Montreal Vision and Mission</h1>
 
       <h1 class="display-6 text-white mt-5">Our Vision</h1>
-      <p class="text-white">
+      <p class="text-white fs-4">
         To Perform His will and to finish his works. <br>
         To observe and practice His teachings and examples. <br>
         To reach out to unbelievers with the Gospel. <br>
@@ -14,7 +14,7 @@
       <img src="@/assets/Jesus.jpg" class="rounded mx-auto d-block img-fluid my-4" alt="Cross">
 
       <h1 class="display-6 text-white">Our Belief</h1>
-      <p class="text-white">
+      <p class="text-white fs-4">
         We believe that there is ONLY one God, eternally existent in three persons:
         Father, Son, and the Holy Spirit. We believe in the deity of our Lord Jesus Christ.
         We believe that for the salvation of lost and sinful man,
@@ -22,7 +22,7 @@
       </p>
       <img src="@/assets/bible.jpg" class="rounded mx-auto d-block img-fluid my-4" alt="Bible">
       <h1 class="display-6 text-white">Message from our Pastor</h1>
-      <p class="text-white">
+      <p class="text-white fs-4">
         We believe the Bible to be the inspired, the only infallible, authoritative Word of God. 
         And there is ONLY one God, eternally existent in three persons: Father, Son, and the Holy Spirit. 
         We believe in the deity of our Lord Jesus Christ, in His virgin birth, in His sinless life, in His miracles, 
@@ -31,7 +31,7 @@
       </p>
 
       <img src="@/assets/matthew 18.jpg" class="rounded mx-auto d-block img-fluid my-4" alt="Bible">
-      <figure class="text-center text-white">
+      <figure class="text-center text-white fs-4">
         <blockquote class="blockquote">
           <p>"For where two or three are gathered together in my name, there am I in the midst of them."</p>
         </blockquote>
