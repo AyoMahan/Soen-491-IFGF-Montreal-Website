@@ -22,23 +22,23 @@ jobs:
         with:
           node-version: 22
           cache: 'npm'
-          cache-dependency-path: client/IFGF-MONTREAL/src/package-lock.json  # Cache dependencies
+          cache-dependency-path: client/IFGF-MONTREAL/package-lock.json  # Cache dependencies
 
       - name: Install Dependencies
         run: npm install
-        working-directory: client/IFGF-MONTREAL/src  # Ensure it runs in the correct directory
+        working-directory: client/IFGF-MONTREAL # Ensure it runs in the correct directory
 
       - name: Lint Code
         run: npm run lint
-        working-directory: client/IFGF-MONTREAL/src  # Run inside src directory
+        working-directory: client/IFGF-MONTREAL  # Run inside src directory
 
       - name: Run Tests
         run: npm run test:unit
-        working-directory: client/IFGF-MONTREAL/src
+        working-directory: client/IFGF-MONTREAL
 
       - name: Build Vue App
         run: npm run build
-        working-directory: client/IFGF-MONTREAL/src
+        working-directory: client/IFGF-MONTREAL
 
   cd:
     name: Continuous Deployment
