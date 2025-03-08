@@ -1,0 +1,61 @@
+name: CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main  # Run when pushing to the main branch
+  pull_request:
+    branches:
+      - main  # Run for pull requests to main
+
+jobs:
+  ci:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: 'npm'
+          cache-dependency-path: client/IFGF-MONTREAL/package-lock.json  # Cache dependencies
+
+      - name: Install Dependencies
+        run: npm install
+        working-directory: client/IFGF-MONTREAL # Ensure it runs in the correct directory
+
+      - name: Run Tests
+        run: npm run test:unit
+        working-directory: client/IFGF-MONTREAL
+
+      - name: Build Vue App
+        run: npm run build
+        working-directory: client/IFGF-MONTREAL
+
+  cd:
+    name: Continuous Deployment
+    needs: ci  # Run only if CI passes
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Log in to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKER_USERNAME }}
+          password: ${{ secrets.DOCKER_PASSWORD }}
+
+      - name: Build and Tag Docker Image
+        run: |
+          docker build -t ${{ secrets.DOCKER_USERNAME }}/ifgf-montreal:latest .
+        working-directory: client/IFGF-MONTREAL  
+
+      - name: Push Docker Image to Docker Hub
+        run: |
+          docker push ${{ secrets.DOCKER_USERNAME }}/ifgf-montreal:latest
