@@ -22,18 +22,23 @@ jobs:
         with:
           node-version: 22
           cache: 'npm'
+          cache-dependency-path: client/IFGF-MONTREAL/src/package-lock.json  # Cache dependencies
 
       - name: Install Dependencies
         run: npm install
+        working-directory: client/IFGF-MONTREAL/src  # Ensure it runs in the correct directory
 
       - name: Lint Code
         run: npm run lint
+        working-directory: client/IFGF-MONTREAL/src  # Run inside src directory
 
       - name: Run Tests
         run: npm run test:unit
+        working-directory: client/IFGF-MONTREAL/src
 
       - name: Build Vue App
         run: npm run build
+        working-directory: client/IFGF-MONTREAL/src
 
   cd:
     name: Continuous Deployment
@@ -53,6 +58,7 @@ jobs:
       - name: Build and Tag Docker Image
         run: |
           docker build -t ${{ secrets.DOCKER_USERNAME }}/ifgf-montreal:latest .
+        working-directory: client/IFGF-MONTREAL  
 
       - name: Push Docker Image to Docker Hub
         run: |
