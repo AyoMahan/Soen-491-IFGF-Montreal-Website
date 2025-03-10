@@ -28,5 +28,7 @@ Developer Getting Started Guide
 - [Infrastructure and Tools](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Infrastructure-and-Tools)
 - [User Story Guide](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/User-Story-Guide)
 - [Risks](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Risk-Management)
+- [CI/CD](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Continous-Integration-and-Continous-Deployment)
+- [Testing](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki/Testing-plan)
 
 
