@@ -13,7 +13,7 @@
           </div>
         </div>
         <div class="carousel-item">
-          <img src="@/assets/outdoor-service.jpg" class="d-block w-100" alt="...">
+          <img src="@/assets/coming.jpg" class="d-block w-100" alt="...">
           <div class="carousel-caption d-none d-md-block">
             <h5>Outdoor Service</h5>
           </div>
@@ -51,6 +51,14 @@
     }
     </script>
     
-    <style>
-    
-    </style>
+    <style scoped>
+.carousel-inner {
+  max-height: 500px; /* Adjust height as needed */
+}
+
+.carousel-item img {
+  height: 500px; /* Set fixed height */
+  width: 100%; /* Ensure full width */
+  object-fit: cover; /* Crop instead of stretching */
+}
+</style>

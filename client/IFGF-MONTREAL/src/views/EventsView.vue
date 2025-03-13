@@ -14,11 +14,10 @@ export default {
 
 <template>
 <h1 class="display-4">Coming Soon</h1>
-<CarouselPast />
+<CarouselFuture />
 
 <h1 class="display-4">Past Events</h1>
-
-<CarouselFuture />
+<CarouselPast />
 
 </template>
   

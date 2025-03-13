@@ -51,6 +51,14 @@ export default{
 }
 </script>
 
-<style>
+<style scoped>
+.carousel-inner {
+  max-height: 500px; /* Adjust height as needed */
+}
 
+.carousel-item img {
+  height: 500px; /* Set fixed height */
+  width: 100%; /* Ensure full width */
+  object-fit: cover; /* Crop instead of stretching */
+}
 </style>
