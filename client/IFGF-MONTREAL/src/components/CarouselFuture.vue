@@ -47,7 +47,7 @@
     <script>
     
     export default{
-        name: "Carousel",
+        name: "CarouselFuture",
     }
     </script>
     
