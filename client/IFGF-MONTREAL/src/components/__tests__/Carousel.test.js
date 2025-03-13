@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest';
 import { mount } from '@vue/test-utils';
-import Carousel from '@/components/Carousel.vue';
+import Carousel from '@/components/CarouselPast.vue';
 
 describe('Carousel.vue', () => {
   it('renders the correct number of slides', () => {
