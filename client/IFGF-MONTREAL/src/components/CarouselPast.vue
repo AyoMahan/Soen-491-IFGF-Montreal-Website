@@ -10,28 +10,24 @@
       <img src="@/assets/christmas-2025.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Christmas</h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="@/assets/outdoor-service.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Outdoor Service</h5>
-        <p>Some representative placeholder content for the second slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="@/assets/retreat-2025.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Retreat</h5>
-        <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
     <div class="carousel-item">
       <img src="@/assets/worship-circle.jpg" class="d-block w-100" alt="...">
       <div class="carousel-caption d-none d-md-block">
         <h5>Worship Circle</h5>
-        <p>Some representative placeholder content for the third slide.</p>
       </div>
     </div>
   </div>
@@ -51,7 +47,7 @@
 <script>
 
 export default{
-    name: "Carousel",
+    name: "CarouselFuture",
 }
 </script>
 

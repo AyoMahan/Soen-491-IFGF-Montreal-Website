@@ -1,5 +1,7 @@
 <script>
-import Carousel from '@/components/Carousel.vue';
+import Carousel from '@/components/CarouselPast.vue';
+import Carousel from '@/components/CarouselFuture.vue';
+import CarouselFuture from '@/components/CarouselFuture.vue';
 
 export default {
   components: {
@@ -15,7 +17,7 @@ export default {
 
 <h1 class="display-4">Past Events</h1>
 
-<Carousel />
+<CarouselFuture />
 
 </template>
   
