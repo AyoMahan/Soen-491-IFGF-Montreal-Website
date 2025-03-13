@@ -19,7 +19,14 @@ Developer Getting Started Guide
 3. Start the vue server: <br/>
 `npm run dev`
 
+![image](https://github.com/user-attachments/assets/03fba61b-2ec8-410f-9baf-33fe44b6f1f3)
+
+
 ## CI/CD Information
+Github Actions 
+Continous Integration Ensuring the Vue app builds correctly with all the dependencies  with Passing tests
+
+Continous Deployment: Building and tagging the image to push to dockerhub registry.
 
 ## Wiki Table of Contents
 - [Home](https://github.com/AyoMahan/Soen-491-IFGF-Montreal-Website/wiki)
