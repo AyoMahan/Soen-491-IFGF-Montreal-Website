@@ -6,6 +6,8 @@ Building the IFGF Montreal website for soen-491 Software Engineering Project
 ![image](https://github.com/user-attachments/assets/cfcfde80-8c84-47a7-8d8b-75326968e063)
 
 Demo Video Link: https://www.youtube.com/watch?v=OtcnzECIF3U
+
+
 Project Summary
 IFGF Montreal Website is to be the official website for the International Full Gospel Fellowship Church in Montreal.<br/>
 This website is to inform old members and new visitors of the principles of the church while keeping them updated of the latest events.<br/>
