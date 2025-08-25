@@ -22,7 +22,7 @@ import Cover from '@/components/Cover.vue';
         IFGF MONTREAL was established in 2006 and is part of the IFGF Global Church based in Indonesia. The acronym IFGF stands for International Full Gospel Fellowship. Presently, the IFGF Church oversees more than 3,000 churches across 38 different countries globally, planting new churches in over 40 countries.
       </p>
       <p class="story-text">
-        In 2006, we began our journey with a small group of people, and now we have grown much more. Our services were initially held in a few different locations, and later, we started gathering at the Korean Church building. IFGF MONTREAL holds authority to govern itself according to the bylaws of the IFGF Global Church. For more information, please visit their global website.
+        In 2006, we began our journey with a small group of people, and now we have grown much more. Our services were initially held in a few different locations, and later, we started gathering at the Korean Church building. IFGF MONTREAL holds authority to govern itself according to the bylaws of the IFGF Global Church. For more information, please visit their global <a href="https://ifgf.global/" target="_blank">website</a>
       </p>
     </section>
   </main>
@@ -52,7 +52,7 @@ import Cover from '@/components/Cover.vue';
 }
 
 .bible-verse {
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   font-style: italic;
   color: #6c584c;
   line-height: 1.6;
@@ -67,7 +67,7 @@ import Cover from '@/components/Cover.vue';
 }
 
 .lead {
-  font-size: 1.2rem;
+  font-size: 1.7rem;
   color: #5a4d3f;
   line-height: 1.8;
   margin-bottom: 20px;
@@ -96,7 +96,7 @@ import Cover from '@/components/Cover.vue';
 }
 
 .story-text {
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: #5a4d3f;
   line-height: 1.8;
   margin-bottom: 15px;

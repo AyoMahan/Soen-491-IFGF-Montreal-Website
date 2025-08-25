@@ -93,9 +93,10 @@ export default {
 /* Navbar Links */
 .navbar-nav .nav-link {
   color: #5a4a42; /* Elegant brown */
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   margin: 0 10px;
   transition: color 0.3s ease-in-out, transform 0.2s;
+  font-weight: bold;
 }
 
 .navbar-nav .nav-link:hover {

@@ -70,7 +70,7 @@ import Cards from '@/components/Cards.vue';
 
 .description {
   text-align: justify;
-  font-size: 1.1rem;
+  font-size: 1.6rem;
   color: #5a4d3f;
   line-height: 1.8;
   margin-bottom: 15px;
