@@ -1,9 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg custom-navbar">
     <div class="container">
+      <logo class="png"><img src="@/assets/logo.png" alt="IFGF Montreal Logo"></logo>
       <!-- Logo / Brand -->
       <RouterLink class="navbar-brand fw-bold" to="/">
-        IFGF Montreal
+        MONTREAL
       </RouterLink>
 
       <!-- Navbar toggler for mobile -->
